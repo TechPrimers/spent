@@ -3,7 +3,6 @@
 <img src="/images/logo.png" alt="spent logo" />
  
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-A3MzM5NjI0ZmQ1YmZhMGNhMGI1NGYwMTY)
 [![Build Status](https://travis-ci.com/TechPrimers/spent.svg?branch=master)](https://travis-ci.com/TechPrimers/spent)
 [![Codacy Badge](<URL>)](<URL>)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
