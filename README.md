@@ -19,3 +19,13 @@
 - Read Citi Bank Statements in CSV format
 - Read Kotak Mahindra Bank Statements in CSV format
 
+## Structure
+- `spent-react-ui` - UI for the Spent Dashboard
+- `spent-server` - Micronaut based server which extracts, transforms and loads into a local postgresql database
+
+## Start UI
+- Start the React UI using the following command
+```
+cd spent-react-ui
+npm start
+```
