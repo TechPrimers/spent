@@ -23,6 +23,9 @@
 - `spent-react-ui` - UI for the Spent Dashboard
 - `spent-server` - Micronaut based server which extracts, transforms and loads into a local postgresql database
 
+## Architecture
+<img src="/images/architecture.png" alt="architecture" />
+
 ## Start UI
 - Start the React UI using the following command
 ```
