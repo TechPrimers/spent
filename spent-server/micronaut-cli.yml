@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: spent.server
+---
+testFramework: junit
+sourceLanguage: java
