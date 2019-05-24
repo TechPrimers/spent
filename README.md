@@ -11,6 +11,18 @@
 
 # Open Source Project for tracking all your spends based on your Bank Statements
 
+
+Table of Contents
+=================
+
+   * [Features](#features)
+   * [Upcoming](#upcoming)
+   * [Structure](#structure)
+   * [Architecture](#architecture)
+   * [Start UI](#start-ui)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
 ## Features
 
 ## Upcoming
