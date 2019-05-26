@@ -19,6 +19,7 @@ Table of Contents
    * [Upcoming](#upcoming)
    * [Structure](#structure)
    * [Architecture](#architecture)
+      * [Microservices Patterns](#microservices-patterns)
    * [Start UI](#start-ui)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
