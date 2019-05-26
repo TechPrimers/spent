@@ -20,6 +20,7 @@ Table of Contents
    * [Structure](#structure)
    * [Architecture](#architecture)
       * [Microservices Patterns](#microservices-patterns)
+      * [Flow](#flow)
    * [Start UI](#start-ui)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
