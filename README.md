@@ -36,6 +36,10 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `spent-server` - Micronaut based server which extracts, transforms and loads into a local postgresql database
 
 ## Architecture
+### Microservices Patterns
+- Event Sourcing and CQRS. Reference eg:- [Eventuate Kanban board](https://github.com/eventuate-examples/es-kanban-board)
+
+### Flow
 <img src="/images/architecture.png" alt="architecture" />
 
 ## Start UI
