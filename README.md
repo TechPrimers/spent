@@ -17,6 +17,7 @@ Table of Contents
 
    * [Features](#features)
    * [Upcoming](#upcoming)
+   * [Collaboration with developers](#collaboration-with-developers)
    * [Structure](#structure)
    * [Architecture](#architecture)
       * [Microservices Patterns](#microservices-patterns)
@@ -32,6 +33,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - Read HDFC Bank Statements in CSV format
 - Read Citi Bank Statements in CSV format
 - Read Kotak Mahindra Bank Statements in CSV format
+
+## Collaboration with Developers
+We engage with Contributors on FindCollabs - https://findcollabs.com/project/OVxt6oPQEhx1VpvygD7G
 
 ## Structure
 - `spent-react-ui` - UI for the Spent Dashboard
