@@ -23,7 +23,7 @@ services:
     volumes:
       - ./dockerdata/pgdata:/var/lib/postgresql/data
       # Uncomment the below line if you have data to be restored or want to run sql commands at initalization.
-      - ../.local/00_init.sql:/docker-entrypoint-initdb.d/00_init.sql
+      #- ../.local/00_init.sql:/docker-entrypoint-initdb.d/00_init.sql
      
 
   # This will download pgAdmin and set following properties
