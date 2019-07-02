@@ -1,0 +1,44 @@
+# Command to run docker-compose up
+
+version: '3'
+services:
+  # This will download Postgres and set following properties
+  # hostname: postgres
+  # username is passed in command
+  # password is blank
+  # and will create database with name 'localdb'
+  # hostname will be used while connecting postgres from postgres admin
+  # for persisting data it will create folder 'pgdata' in present working directory
+  # for creating database and tables it will copy '00_init.sql' to docker container and will run those scripts at the time of creating docker container
+  postgres:
+    container_name: postgres
+    image: postgres:10.8 
+    hostname: postgres
+    environment:
+    # pick from file name
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_DB=${POSTGRES_DB}
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./dockerdata/pgdata:/var/lib/postgresql/data
+      # Uncomment the below line if you have data to be restored or want to run sql commands at initalization.
+      #- ../.local/00_init.sql:/docker-entrypoint-initdb.d/00_init.sql
+     
+
+  # This will download pgAdmin and set following properties
+  # email is passed in command
+  # password is passed in command
+  # for persisting data it will create folder 'pgadmindata' in present working directory
+  pgAdmin:
+    container_name: pgAdmin
+    image: dpage/pgadmin4
+    depends_on:
+      - postgres
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
+      - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
+    ports:
+      - '9080:80'
+    volumes:
+      - ./dockerdata/pgadmindata:/var/lib/pgadmin
