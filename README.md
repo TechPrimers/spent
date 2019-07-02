@@ -53,4 +53,5 @@ We engage with Contributors on FindCollabs - https://findcollabs.com/project/OVx
 ```
 cd spent-react-ui
 npm start
+npm install
 ```
