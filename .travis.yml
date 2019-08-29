@@ -7,7 +7,7 @@ script: ./gradlew clean build --info
 jobs:
   include:
     - stage: Test
-      script: ./gradle clean test
+      script: ./gradlew clean test
 
 notifications:
   email: info@techprimers.com
