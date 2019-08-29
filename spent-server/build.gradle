@@ -11,12 +11,6 @@ apply plugin:"java"
 version "0.1"
 group "spent.server"
 
-repositories {
-    mavenLocal()
-    mavenCentral()
-    maven { url "https://jcenter.bintray.com" }
-}
-
 dependencyManagement {
     imports {
         mavenBom 'io.micronaut:micronaut-bom:1.0.1'

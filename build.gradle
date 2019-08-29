@@ -1,0 +1,13 @@
+allprojects {
+  repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url "https://jcenter.bintray.com" }
+  }
+}
+
+subprojects {
+    version = '0.1'
+}
+
+group 'com.techprimers.spent'

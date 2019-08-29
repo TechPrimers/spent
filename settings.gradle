@@ -1,0 +1,4 @@
+rootProject.name = 'spent'
+
+include 'spent-kotlin-server'
+include 'spent-server'
