@@ -3,4 +3,4 @@ build
 .gradle/
 dist
 target
-
+docker/dockerdata/

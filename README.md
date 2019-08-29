@@ -10,13 +10,14 @@
 [![GitHub forks](https://img.shields.io/github/forks/techprimers/spent.svg)](https://github.com/techprimers/spent/network)
 
 # Open Source Project for tracking all your spends based on your Bank Statements
-In India, we have so many banks and with the movement of Digital Banks and Wallets, we don't have a way to reconcile our income, spend and savings. The idea of this project is to create a personalized way to track your spend to identify how much you **spent** based on your bank statements
+In India, we have so many banks and with the movement of Digital Banks and Wallets, we don't have a way to reconcile our income, spend and savings. The idea of this project is to create a personalized way to track your spend to identify how much you **spent** based on your bank statements and bank messages.
 
 Table of Contents
 =================
 
    * [Features](#features)
    * [Upcoming](#upcoming)
+   * [Collaboration with developers](#collaboration-with-developers)
    * [Structure](#structure)
    * [Architecture](#architecture)
       * [Microservices Patterns](#microservices-patterns)
@@ -32,6 +33,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - Read HDFC Bank Statements in CSV format
 - Read Citi Bank Statements in CSV format
 - Read Kotak Mahindra Bank Statements in CSV format
+
+## Collaboration with Developers
+We engage with Contributors on FindCollabs - https://findcollabs.com/project/OVxt6oPQEhx1VpvygD7G
 
 ## Structure
 - `spent-react-ui` - UI for the Spent Dashboard
@@ -49,4 +53,5 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ```
 cd spent-react-ui
 npm start
+npm install
 ```
