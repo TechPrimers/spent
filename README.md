@@ -8,9 +8,6 @@
 [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/techprimers/spent.svg?maxAge=2592000)]() 
 [![GitHub forks](https://img.shields.io/github/forks/techprimers/spent.svg)](https://github.com/techprimers/spent/network)
 
-
-![Gradle](https://github.com/actions/starter-workflows/blob/master/icons/gradle.svg)
-
 # Open Source Project for tracking all your spends based on your Bank Statements
 In India, we have so many banks and with the movement of Digital Banks and Wallets, we don't have a way to reconcile our income, spend and savings. The idea of this project is to create a personalized way to track your spend to identify how much you **spent** based on your bank statements and bank messages.
 
