@@ -38,6 +38,7 @@ We engage with Contributors on FindCollabs - https://findcollabs.com/project/OVx
 
 ## Structure
 - `spent-react-ui` - UI for the Spent Dashboard
+- `spent-kotlin-server` - Kotlin based server for processing files and transforming them into a generic model
 - `spent-server` - Micronaut based server which extracts, transforms and loads into a local postgresql database
 
 ## Architecture
